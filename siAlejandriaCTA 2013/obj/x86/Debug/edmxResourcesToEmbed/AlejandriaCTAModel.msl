@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bdAlejandriaCTAModelStoreContainer" CdmEntityContainer="bdAlejandriaCTAEntities1">
+    <EntitySetMapping Name="ALTA">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.ALTA">
+        <MappingFragment StoreEntitySet="ALTA">
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="MotivoAlta" ColumnName="MotivoAlta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Apertura">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.Apertura">
+        <MappingFragment StoreEntitySet="Apertura">
+          <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="FechaApertura" ColumnName="FechaApertura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ASISTENTES_TERAPIA">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.ASISTENTES_TERAPIA">
+        <MappingFragment StoreEntitySet="ASISTENTES_TERAPIA">
+          <ScalarProperty Name="IdTerapia" ColumnName="IdTerapia" />
+          <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+          <ScalarProperty Name="Asistencia" ColumnName="Asistencia" />
+          <ScalarProperty Name="FechaTerapia" ColumnName="FechaTerapia" />
+          <ScalarProperty Name="HoraTerapia" ColumnName="HoraTerapia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CITAS">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.CITAS">
+        <MappingFragment StoreEntitySet="CITAS">
+          <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+          <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+          <ScalarProperty Name="FechaCita" ColumnName="FechaCita" />
+          <ScalarProperty Name="HoraCita" ColumnName="HoraCita" />
+          <ScalarProperty Name="Asistencia" ColumnName="Asistencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FACTURACION">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.FACTURACION">
+        <MappingFragment StoreEntitySet="FACTURACION">
+          <ScalarProperty Name="CodFacturacion" ColumnName="CodFacturacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HISTORIA">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA">
+        <MappingFragment StoreEntitySet="HISTORIA">
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="DemandaIncialTTo" ColumnName="DemandaIncialTTo" />
+          <ScalarProperty Name="TToAnterior" ColumnName="TToAnterior" />
+          <ScalarProperty Name="TToActual" ColumnName="TToActual" />
+          <ScalarProperty Name="EnfermedadesRelevantes" ColumnName="EnfermedadesRelevantes" />
+          <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HISTORIA_MEDICA">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA_MEDICA">
+        <MappingFragment StoreEntitySet="HISTORIA_MEDICA">
+          <ScalarProperty Name="Otras_Patologias_Somaticas" ColumnName="Otras_Patologias_Somaticas" />
+          <ScalarProperty Name="Programa_Libre_Drogas" ColumnName="Programa_Libre_Drogas" />
+          <ScalarProperty Name="Reduccion" ColumnName="Reduccion" />
+          <ScalarProperty Name="Desintoxicacion" ColumnName="Desintoxicacion" />
+          <ScalarProperty Name="TTo_Psiquiatra" ColumnName="TTo_Psiquiatra" />
+          <ScalarProperty Name="TTo_Especifico" ColumnName="TTo_Especifico" />
+          <ScalarProperty Name="TTo_General" ColumnName="TTo_General" />
+          <ScalarProperty Name="Tatuajes" ColumnName="Tatuajes" />
+          <ScalarProperty Name="Caries" ColumnName="Caries" />
+          <ScalarProperty Name="Venopuncion" ColumnName="Venopuncion" />
+          <ScalarProperty Name="Adenopatias" ColumnName="Adenopatias" />
+          <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+          <ScalarProperty Name="Pulso" ColumnName="Pulso" />
+          <ScalarProperty Name="Tension_Arterial" ColumnName="Tension_Arterial" />
+          <ScalarProperty Name="Talla" ColumnName="Talla" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Cirugia" ColumnName="Cirugia" />
+          <ScalarProperty Name="Hospitalizaciones" ColumnName="Hospitalizaciones" />
+          <ScalarProperty Name="Alergias" ColumnName="Alergias" />
+          <ScalarProperty Name="Antecedentes_Interes" ColumnName="Antecedentes_Interes" />
+          <ScalarProperty Name="Patologias_Psiquiatricas" ColumnName="Patologias_Psiquiatricas" />
+          <ScalarProperty Name="Patologias_Somaticas_Asociadas" ColumnName="Patologias_Somaticas_Asociadas" />
+          <ScalarProperty Name="Bioquimica" ColumnName="Bioquimica" />
+          <ScalarProperty Name="Hemograma" ColumnName="Hemograma" />
+          <ScalarProperty Name="Pruebas_Hepaticas" ColumnName="Pruebas_Hepaticas" />
+          <ScalarProperty Name="MANTOUX" ColumnName="MANTOUX" />
+          <ScalarProperty Name="SEROLOGIA_LUES" ColumnName="SEROLOGIA_LUES" />
+          <ScalarProperty Name="VHC" ColumnName="VHC" />
+          <ScalarProperty Name="VHB" ColumnName="VHB" />
+          <ScalarProperty Name="VIH" ColumnName="VIH" />
+          <ScalarProperty Name="IdHistoriaMedica" ColumnName="IdHistoriaMedica" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="SeguimientoMedico" ColumnName="SeguimientoMedico" />
+          <ScalarProperty Name="ObservacionesMedico" ColumnName="ObservacionesMedico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HISTORIA_PSICOLOGICA">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA_PSICOLOGICA">
+        <MappingFragment StoreEntitySet="HISTORIA_PSICOLOGICA">
+          <ScalarProperty Name="Tareas" ColumnName="Tareas" />
+          <ScalarProperty Name="Tecnicas" ColumnName="Tecnicas" />
+          <ScalarProperty Name="Objetivos" ColumnName="Objetivos" />
+          <ScalarProperty Name="Protocolo" ColumnName="Protocolo" />
+          <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+          <ScalarProperty Name="Comorbilidad" ColumnName="Comorbilidad" />
+          <ScalarProperty Name="PruebasAnaliticas" ColumnName="PruebasAnaliticas" />
+          <ScalarProperty Name="CausasConsecuencias" ColumnName="CausasConsecuencias" />
+          <ScalarProperty Name="SolucionesIntentadas" ColumnName="SolucionesIntentadas" />
+          <ScalarProperty Name="TTosAnteriores" ColumnName="TTosAnteriores" />
+          <ScalarProperty Name="Quejoso" ColumnName="Quejoso" />
+          <ScalarProperty Name="PercpEntorno" ColumnName="PercpEntorno" />
+          <ScalarProperty Name="PercpPaciente" ColumnName="PercpPaciente" />
+          <ScalarProperty Name="Anamnesis" ColumnName="Anamnesis" />
+          <ScalarProperty Name="InformacionDemanda" ColumnName="InformacionDemanda" />
+          <ScalarProperty Name="QuienDemanda" ColumnName="QuienDemanda" />
+          <ScalarProperty Name="Fecha1Entrevista" ColumnName="Fecha1Entrevista" />
+          <ScalarProperty Name="IdHistoriaPs" ColumnName="IdHistoriaPs" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="SeguimientoPs" ColumnName="SeguimientoPs" />
+          <ScalarProperty Name="ObservacionesPs" ColumnName="ObservacionesPs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HISTORIA_SOCIAL">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA_SOCIAL">
+        <MappingFragment StoreEntitySet="HISTORIA_SOCIAL">
+          <ScalarProperty Name="IdHistoriaSocial" ColumnName="IdHistoriaSocial" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="ConsumoDrogas" ColumnName="ConsumoDrogas" />
+          <ScalarProperty Name="DrogaConsPrincipal" ColumnName="DrogaConsPrincipal" />
+          <ScalarProperty Name="EdadInicioCons" ColumnName="EdadInicioCons" />
+          <ScalarProperty Name="ConsOtrasDrog" ColumnName="ConsOtrasDrog" />
+          <ScalarProperty Name="OtrasDrog" ColumnName="OtrasDrog" />
+          <ScalarProperty Name="Genograma" ColumnName="Genograma" />
+          <ScalarProperty Name="Vivienda" ColumnName="Vivienda" />
+          <ScalarProperty Name="SitLabActual" ColumnName="SitLabActual" />
+          <ScalarProperty Name="SitEconom" ColumnName="SitEconom" />
+          <ScalarProperty Name="SitJudicial" ColumnName="SitJudicial" />
+          <ScalarProperty Name="FormacionReglada" ColumnName="FormacionReglada" />
+          <ScalarProperty Name="FormacionComplem" ColumnName="FormacionComplem" />
+          <ScalarProperty Name="EntornoSocial" ColumnName="EntornoSocial" />
+          <ScalarProperty Name="OcioTiempLibre" ColumnName="OcioTiempLibre" />
+          <ScalarProperty Name="DemandaPresentTS" ColumnName="DemandaPresentTS" />
+          <ScalarProperty Name="AtencionPrestada" ColumnName="AtencionPrestada" />
+          <ScalarProperty Name="AnotacionesTS" ColumnName="AnotacionesTS" />
+          <ScalarProperty Name="DiagnosticoSocial" ColumnName="DiagnosticoSocial" />
+          <ScalarProperty Name="ObservacionesTS" ColumnName="ObservacionesTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INGRESO">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.INGRESO">
+        <MappingFragment StoreEntitySet="INGRESO">
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="FechaAdmisionTTo" ColumnName="FechaAdmisionTTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PACIENTES">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.PACIENTES">
+        <MappingFragment StoreEntitySet="PACIENTES">
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+          <ScalarProperty Name="NombrePaciente" ColumnName="NombrePaciente" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Movil" ColumnName="Movil" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="EstadoCivil" ColumnName="EstadoCivil" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="Localidad" ColumnName="Localidad" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="SitLabInicioTTo" ColumnName="SitLabInicioTTo" />
+          <ScalarProperty Name="FechaDesempleo" ColumnName="FechaDesempleo" />
+          <ScalarProperty Name="FechaPrestDesempl" ColumnName="FechaPrestDesempl" />
+          <ScalarProperty Name="DemandaInicioTTo" ColumnName="DemandaInicioTTo" />
+          <ScalarProperty Name="CodFacturacion" ColumnName="CodFacturacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TECNICOS">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.TECNICOS">
+        <MappingFragment StoreEntitySet="TECNICOS">
+          <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+          <ScalarProperty Name="NombreTecnico" ColumnName="NombreTecnico" />
+          <ScalarProperty Name="Profesion" ColumnName="Profesion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TERAPIAS">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.TERAPIAS">
+        <MappingFragment StoreEntitySet="TERAPIAS">
+          <ScalarProperty Name="IdTerapia" ColumnName="IdTerapia" />
+          <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+          <ScalarProperty Name="NombreTerapia" ColumnName="NombreTerapia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UNIDAD_CONVIVENCIA">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.UNIDAD_CONVIVENCIA">
+        <MappingFragment StoreEntitySet="UNIDAD_CONVIVENCIA">
+          <ScalarProperty Name="IdUnidConv" ColumnName="IdUnidConv" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="NombreConviviente" ColumnName="NombreConviviente" />
+          <ScalarProperty Name="EdadConviviente" ColumnName="EdadConviviente" />
+          <ScalarProperty Name="ParentescoConviviente" ColumnName="ParentescoConviviente" />
+          <ScalarProperty Name="SitLabConvivente" ColumnName="SitLabConvivente" />
+          <ScalarProperty Name="FamiliarEnTTo" ColumnName="FamiliarEnTTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUGES">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.USUGES">
+        <MappingFragment StoreEntitySet="USUGES">
+          <ScalarProperty Name="IdUsuGes" ColumnName="IdUsuGes" />
+          <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+          <ScalarProperty Name="NombreUsuGes" ColumnName="NombreUsuGes" />
+          <ScalarProperty Name="KeyApp" ColumnName="KeyApp" />
+          <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DESCONECTADA">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.DESCONECTADA">
+        <MappingFragment StoreEntitySet="DESCONECTADA">
+          <ScalarProperty Name="Hora_Cita" ColumnName="Hora_Cita" />
+          <ScalarProperty Name="Fecha_Cita" ColumnName="Fecha_Cita" />
+          <ScalarProperty Name="Tecnico_Cita" ColumnName="Tecnico_Cita" />
+          <ScalarProperty Name="Nombre_Cita" ColumnName="Nombre_Cita" />
+          <ScalarProperty Name="IdNoPaciente" ColumnName="IdNoPaciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CODIGOS_FACTURACION">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.CODIGOS_FACTURACION">
+        <MappingFragment StoreEntitySet="CODIGOS_FACTURACION">
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Denominacion" ColumnName="Denominacion" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FACTURACION_REAL">
+      <EntityTypeMapping TypeName="bdAlejandriaCTAModel.FACTURACION_REAL">
+        <MappingFragment StoreEntitySet="FACTURACION_REAL">
+          <ScalarProperty Name="PagosAlDia" ColumnName="PagosAlDia" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodFacturacion" ColumnName="CodFacturacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

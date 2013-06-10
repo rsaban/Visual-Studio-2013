@@ -1,0 +1,307 @@
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAltaPaciente.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEstadisticas.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - copia\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEstadisticas.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGestionTecnicos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgenda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgenda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGestionTecnicos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEstadisticas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate - copia (2)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAsistentesTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoTerapias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAltaTerapeutica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formConsultasVarias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAvisos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formUC.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodFac.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formVisorDeImagenes.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEliminarTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Alternate\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAboutMe.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAboutMe.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgenda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAltaTerapeutica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAsistentesTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAvisos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodFac.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formConsultasVarias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEliminarTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGestionTecnicos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formUC.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoTerapias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formVisorDeImagenes.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Terminado (copia)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAboutMe.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgenda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAltaTerapeutica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAsistentesTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAvisos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodFac.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formConsultasVarias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEliminarTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGestionTecnicos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeleccionTecnico.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formUC.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoTerapias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formVisorDeImagenes.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgregarCitaNoPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCitasNoPacientes.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión - copia - copia (4)\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión - copia - copia (4)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión - copia - copia (4)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión - copia - copia (4)\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - Revisión\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodigosFacturacion.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAboutMe.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgenda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgregarCitaNoPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAltaTerapeutica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAsistentesTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAvisos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCitasNoPacientes.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodFac.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodigosFacturacion.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formConsultasVarias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEliminarTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGestionTecnicos.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeleccionTecnico.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formUC.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoTerapias.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formVisorDeImagenes.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAboutMe.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgenda.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgregarCitaNoPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAltaTerapeutica.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAsistentesTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAvisos.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCitasNoPacientes.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodFac.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodigosFacturacion.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formConsultasVarias.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEliminarTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGestionTecnicos.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeleccionTecnico.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formUC.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoTerapias.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formVisorDeImagenes.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\PROYECTOS VISUAL BASIC\siAlejandria 2013\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe.config
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.exe
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.pdb
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\bin\Debug\siAlejandriaCTA.xml
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Form1.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAboutMe.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgenda.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAgregarCitaNoPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAltaTerapeutica.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAsistentesTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formAvisos.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCitasNoPacientes.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodFac.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formCodigosFacturacion.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formConsultasVarias.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formEliminarTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGestionTecnicos.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formBusqueda.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formContraseña.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formControlCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeleccionTecnico.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formUC.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formFichaPaciente.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formGruposTerapia.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHerramientas.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaMedica.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaPsicologica.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formHistoriaSocial.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoCitas.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formSeguimientoTerapias.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.formVisorDeImagenes.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\siAlejandriaCTA.Resources.resources
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win7_2012\Desktop\siAlejandria 2013 MODIFICADO\siAlejandriaCTA - COMPLETO\siAlejandriaCTA\siAlejandriaCTA\obj\x86\Debug\GenerateResource.write.1.tlog

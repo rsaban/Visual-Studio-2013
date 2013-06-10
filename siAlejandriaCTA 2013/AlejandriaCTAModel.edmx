@@ -1,0 +1,1359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="bdAlejandriaCTAModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="bdAlejandriaCTAModelStoreContainer">
+          <EntitySet Name="ALTA" EntityType="bdAlejandriaCTAModel.Store.ALTA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Apertura" EntityType="bdAlejandriaCTAModel.Store.Apertura" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ASISTENTES_TERAPIA" EntityType="bdAlejandriaCTAModel.Store.ASISTENTES_TERAPIA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CITAS" EntityType="bdAlejandriaCTAModel.Store.CITAS" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CODIGOS_FACTURACION" EntityType="bdAlejandriaCTAModel.Store.CODIGOS_FACTURACION" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DESCONECTADA" EntityType="bdAlejandriaCTAModel.Store.DESCONECTADA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FACTURACION" EntityType="bdAlejandriaCTAModel.Store.FACTURACION" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FACTURACION_REAL" EntityType="bdAlejandriaCTAModel.Store.FACTURACION_REAL" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="HISTORIA" EntityType="bdAlejandriaCTAModel.Store.HISTORIA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="HISTORIA_MEDICA" EntityType="bdAlejandriaCTAModel.Store.HISTORIA_MEDICA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="HISTORIA_PSICOLOGICA" EntityType="bdAlejandriaCTAModel.Store.HISTORIA_PSICOLOGICA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="HISTORIA_SOCIAL" EntityType="bdAlejandriaCTAModel.Store.HISTORIA_SOCIAL" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="INGRESO" EntityType="bdAlejandriaCTAModel.Store.INGRESO" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PACIENTES" EntityType="bdAlejandriaCTAModel.Store.PACIENTES" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TECNICOS" EntityType="bdAlejandriaCTAModel.Store.TECNICOS" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TERAPIAS" EntityType="bdAlejandriaCTAModel.Store.TERAPIAS" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UNIDAD_CONVIVENCIA" EntityType="bdAlejandriaCTAModel.Store.UNIDAD_CONVIVENCIA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="USUGES" EntityType="bdAlejandriaCTAModel.Store.USUGES" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_ALTA_HISTORIA" Association="bdAlejandriaCTAModel.Store.FK_ALTA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="ALTA" EntitySet="ALTA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Apertura_HISTORIA" Association="bdAlejandriaCTAModel.Store.FK_Apertura_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="Apertura" EntitySet="Apertura" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Apertura_TECNICOS" Association="bdAlejandriaCTAModel.Store.FK_Apertura_TECNICOS">
+            <End Role="TECNICOS" EntitySet="TECNICOS" />
+            <End Role="Apertura" EntitySet="Apertura" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ASISTENTES_TERAPIA_PACIENTES" Association="bdAlejandriaCTAModel.Store.FK_ASISTENTES_TERAPIA_PACIENTES">
+            <End Role="PACIENTES" EntitySet="PACIENTES" />
+            <End Role="ASISTENTES_TERAPIA" EntitySet="ASISTENTES_TERAPIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ASISTENTES_TERAPIA_TERAPIAS" Association="bdAlejandriaCTAModel.Store.FK_ASISTENTES_TERAPIA_TERAPIAS">
+            <End Role="TERAPIAS" EntitySet="TERAPIAS" />
+            <End Role="ASISTENTES_TERAPIA" EntitySet="ASISTENTES_TERAPIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CITAS_PACIENTES" Association="bdAlejandriaCTAModel.Store.FK_CITAS_PACIENTES">
+            <End Role="PACIENTES" EntitySet="PACIENTES" />
+            <End Role="CITAS" EntitySet="CITAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CITAS_TECNICOS" Association="bdAlejandriaCTAModel.Store.FK_CITAS_TECNICOS">
+            <End Role="TECNICOS" EntitySet="TECNICOS" />
+            <End Role="CITAS" EntitySet="CITAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HISTORIA_MEDICA_HISTORIA" Association="bdAlejandriaCTAModel.Store.FK_HISTORIA_MEDICA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="HISTORIA_MEDICA" EntitySet="HISTORIA_MEDICA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HISTORIA_PSICOLOGICA_HISTORIA" Association="bdAlejandriaCTAModel.Store.FK_HISTORIA_PSICOLOGICA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="HISTORIA_PSICOLOGICA" EntitySet="HISTORIA_PSICOLOGICA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HISTORIA_SOCIAL_HISTORIA" Association="bdAlejandriaCTAModel.Store.FK_HISTORIA_SOCIAL_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="HISTORIA_SOCIAL" EntitySet="HISTORIA_SOCIAL" />
+          </AssociationSet>
+          <AssociationSet Name="FK_INGRESO_HISTORIA" Association="bdAlejandriaCTAModel.Store.FK_INGRESO_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="INGRESO" EntitySet="INGRESO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PACIENTES_FACTURACION" Association="bdAlejandriaCTAModel.Store.FK_PACIENTES_FACTURACION">
+            <End Role="FACTURACION" EntitySet="FACTURACION" />
+            <End Role="PACIENTES" EntitySet="PACIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UNIDAD_CONVIVENCIA_HISTORIA" Association="bdAlejandriaCTAModel.Store.FK_UNIDAD_CONVIVENCIA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="UNIDAD_CONVIVENCIA" EntitySet="UNIDAD_CONVIVENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_USUGES_TECNICOS" Association="bdAlejandriaCTAModel.Store.FK_USUGES_TECNICOS">
+            <End Role="TECNICOS" EntitySet="TECNICOS" />
+            <End Role="USUGES" EntitySet="USUGES" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ALTA">
+          <Key>
+            <PropertyRef Name="IdHistoria" />
+            <PropertyRef Name="FechaAlta" />
+          </Key>
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="FechaAlta" Type="date" Nullable="false" />
+          <Property Name="MotivoAlta" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Apertura">
+          <Key>
+            <PropertyRef Name="IdTecnico" />
+            <PropertyRef Name="IdHistoria" />
+            <PropertyRef Name="FechaApertura" />
+          </Key>
+          <Property Name="IdTecnico" Type="int" Nullable="false" />
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="FechaApertura" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ASISTENTES_TERAPIA">
+          <Key>
+            <PropertyRef Name="IdTerapia" />
+            <PropertyRef Name="IdPaciente" />
+            <PropertyRef Name="FechaTerapia" />
+          </Key>
+          <Property Name="IdTerapia" Type="int" Nullable="false" />
+          <Property Name="IdPaciente" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Asistencia" Type="nchar" MaxLength="10" />
+          <Property Name="FechaTerapia" Type="date" Nullable="false" />
+          <Property Name="HoraTerapia" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="CITAS">
+          <Key>
+            <PropertyRef Name="IdTecnico" />
+            <PropertyRef Name="IdPaciente" />
+            <PropertyRef Name="FechaCita" />
+          </Key>
+          <Property Name="IdTecnico" Type="int" Nullable="false" />
+          <Property Name="IdPaciente" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="FechaCita" Type="date" Nullable="false" />
+          <Property Name="HoraCita" Type="nchar" MaxLength="10" />
+          <Property Name="Asistencia" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="CODIGOS_FACTURACION">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="nchar" Nullable="false" MaxLength="10" />
+          <Property Name="Denominacion" Type="nvarchar(max)" />
+          <Property Name="Precio" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="DESCONECTADA">
+          <Key>
+            <PropertyRef Name="IdNoPaciente" />
+          </Key>
+          <Property Name="IdNoPaciente" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre_Cita" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tecnico_Cita" Type="nvarchar" MaxLength="50" />
+          <Property Name="Fecha_Cita" Type="nvarchar" MaxLength="50" />
+          <Property Name="Hora_Cita" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="FACTURACION">
+          <Key>
+            <PropertyRef Name="CodFacturacion" />
+          </Key>
+          <Property Name="CodFacturacion" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="FACTURACION_REAL">
+          <Key>
+            <PropertyRef Name="CodFacturacion" />
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="CodFacturacion" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Codigo" Type="nchar" Nullable="false" MaxLength="10" />
+          <Property Name="Cantidad" Type="nchar" MaxLength="10" />
+          <Property Name="PagosAlDia" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="HISTORIA">
+          <Key>
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="DemandaIncialTTo" Type="nvarchar" MaxLength="50" />
+          <Property Name="TToAnterior" Type="nvarchar" MaxLength="50" />
+          <Property Name="TToActual" Type="nvarchar" MaxLength="50" />
+          <Property Name="EnfermedadesRelevantes" Type="nvarchar(max)" />
+          <Property Name="IdPaciente" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="HISTORIA_MEDICA">
+          <Key>
+            <PropertyRef Name="IdHistoriaMedica" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoriaMedica" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="SeguimientoMedico" Type="nvarchar(max)" />
+          <Property Name="ObservacionesMedico" Type="nvarchar(max)" />
+          <Property Name="VIH" Type="nchar" MaxLength="10" />
+          <Property Name="VHB" Type="nchar" MaxLength="10" />
+          <Property Name="VHC" Type="nchar" MaxLength="10" />
+          <Property Name="SEROLOGIA_LUES" Type="nchar" MaxLength="10" />
+          <Property Name="MANTOUX" Type="nchar" MaxLength="10" />
+          <Property Name="Pruebas_Hepaticas" Type="nvarchar(max)" />
+          <Property Name="Hemograma" Type="nvarchar(max)" />
+          <Property Name="Bioquimica" Type="nvarchar(max)" />
+          <Property Name="Patologias_Somaticas_Asociadas" Type="nvarchar(max)" />
+          <Property Name="Patologias_Psiquiatricas" Type="nvarchar(max)" />
+          <Property Name="Antecedentes_Interes" Type="nvarchar(max)" />
+          <Property Name="Alergias" Type="nvarchar(max)" />
+          <Property Name="Hospitalizaciones" Type="nchar" MaxLength="10" />
+          <Property Name="Cirugia" Type="nvarchar" MaxLength="50" />
+          <Property Name="Peso" Type="nchar" MaxLength="10" />
+          <Property Name="Talla" Type="nchar" MaxLength="10" />
+          <Property Name="Tension_Arterial" Type="nchar" MaxLength="10" />
+          <Property Name="Pulso" Type="nchar" MaxLength="10" />
+          <Property Name="Temperatura" Type="nchar" MaxLength="10" />
+          <Property Name="Adenopatias" Type="nchar" MaxLength="10" />
+          <Property Name="Venopuncion" Type="nchar" MaxLength="10" />
+          <Property Name="Caries" Type="nchar" MaxLength="10" />
+          <Property Name="Tatuajes" Type="nchar" MaxLength="10" />
+          <Property Name="TTo_General" Type="nvarchar(max)" />
+          <Property Name="TTo_Especifico" Type="nvarchar(max)" />
+          <Property Name="TTo_Psiquiatra" Type="nvarchar(max)" />
+          <Property Name="Desintoxicacion" Type="nchar" MaxLength="10" />
+          <Property Name="Reduccion" Type="nchar" MaxLength="10" />
+          <Property Name="Programa_Libre_Drogas" Type="nchar" MaxLength="10" />
+          <Property Name="Otras_Patologias_Somaticas" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="HISTORIA_PSICOLOGICA">
+          <Key>
+            <PropertyRef Name="IdHistoriaPs" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoriaPs" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="SeguimientoPs" Type="nvarchar(max)" />
+          <Property Name="ObservacionesPs" Type="nvarchar(max)" />
+          <Property Name="Fecha1Entrevista" Type="nvarchar" MaxLength="50" />
+          <Property Name="QuienDemanda" Type="nvarchar(max)" />
+          <Property Name="InformacionDemanda" Type="nvarchar(max)" />
+          <Property Name="Anamnesis" Type="nvarchar(max)" />
+          <Property Name="PercpPaciente" Type="nvarchar(max)" />
+          <Property Name="PercpEntorno" Type="nvarchar(max)" />
+          <Property Name="Quejoso" Type="nvarchar(max)" />
+          <Property Name="TTosAnteriores" Type="nvarchar(max)" />
+          <Property Name="SolucionesIntentadas" Type="nvarchar(max)" />
+          <Property Name="CausasConsecuencias" Type="nvarchar(max)" />
+          <Property Name="PruebasAnaliticas" Type="nvarchar(max)" />
+          <Property Name="Comorbilidad" Type="nvarchar(max)" />
+          <Property Name="Diagnostico" Type="nvarchar(max)" />
+          <Property Name="Protocolo" Type="nvarchar(max)" />
+          <Property Name="Objetivos" Type="nvarchar(max)" />
+          <Property Name="Tecnicas" Type="nvarchar(max)" />
+          <Property Name="Tareas" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="HISTORIA_SOCIAL">
+          <Key>
+            <PropertyRef Name="IdHistoriaSocial" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoriaSocial" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="ConsumoDrogas" Type="nchar" MaxLength="10" />
+          <Property Name="DrogaConsPrincipal" Type="nvarchar" MaxLength="50" />
+          <Property Name="EdadInicioCons" Type="int" />
+          <Property Name="ConsOtrasDrog" Type="nchar" MaxLength="10" />
+          <Property Name="OtrasDrog" Type="nvarchar" MaxLength="50" />
+          <Property Name="Genograma" Type="image" />
+          <Property Name="Vivienda" Type="nvarchar" MaxLength="50" />
+          <Property Name="SitLabActual" Type="nvarchar" MaxLength="50" />
+          <Property Name="SitEconom" Type="nvarchar" MaxLength="50" />
+          <Property Name="SitJudicial" Type="nvarchar" MaxLength="50" />
+          <Property Name="FormacionReglada" Type="nvarchar" MaxLength="50" />
+          <Property Name="FormacionComplem" Type="nvarchar(max)" />
+          <Property Name="EntornoSocial" Type="nvarchar(max)" />
+          <Property Name="OcioTiempLibre" Type="nvarchar(max)" />
+          <Property Name="DemandaPresentTS" Type="nvarchar(max)" />
+          <Property Name="AtencionPrestada" Type="nvarchar(max)" />
+          <Property Name="AnotacionesTS" Type="nvarchar(max)" />
+          <Property Name="DiagnosticoSocial" Type="nvarchar(max)" />
+          <Property Name="ObservacionesTS" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="INGRESO">
+          <Key>
+            <PropertyRef Name="IdHistoria" />
+            <PropertyRef Name="FechaAdmisionTTo" />
+          </Key>
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="FechaAdmisionTTo" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PACIENTES">
+          <Key>
+            <PropertyRef Name="IdPaciente" />
+          </Key>
+          <Property Name="IdPaciente" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="NombrePaciente" Type="nvarchar" MaxLength="50" />
+          <Property Name="DNI" Type="nchar" MaxLength="10" />
+          <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
+          <Property Name="Telefono" Type="nchar" MaxLength="10" />
+          <Property Name="Movil" Type="nchar" MaxLength="10" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="EstadoCivil" Type="nchar" MaxLength="10" />
+          <Property Name="FechaNacimiento" Type="date" />
+          <Property Name="CP" Type="nchar" MaxLength="10" />
+          <Property Name="Localidad" Type="nchar" MaxLength="10" />
+          <Property Name="Provincia" Type="nchar" MaxLength="10" />
+          <Property Name="SitLabInicioTTo" Type="nvarchar" MaxLength="50" />
+          <Property Name="FechaDesempleo" Type="date" />
+          <Property Name="FechaPrestDesempl" Type="date" />
+          <Property Name="DemandaInicioTTo" Type="nvarchar" MaxLength="50" />
+          <Property Name="CodFacturacion" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sexo" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="TECNICOS">
+          <Key>
+            <PropertyRef Name="IdTecnico" />
+          </Key>
+          <Property Name="IdTecnico" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NombreTecnico" Type="nvarchar" MaxLength="50" />
+          <Property Name="Profesion" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TERAPIAS">
+          <Key>
+            <PropertyRef Name="IdTerapia" />
+          </Key>
+          <Property Name="IdTerapia" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdTecnico" Type="int" />
+          <Property Name="NombreTerapia" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="UNIDAD_CONVIVENCIA">
+          <Key>
+            <PropertyRef Name="IdUnidConv" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdUnidConv" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="NombreConviviente" Type="nvarchar" MaxLength="50" />
+          <Property Name="EdadConviviente" Type="int" />
+          <Property Name="ParentescoConviviente" Type="nvarchar" MaxLength="50" />
+          <Property Name="SitLabConvivente" Type="nvarchar" MaxLength="50" />
+          <Property Name="FamiliarEnTTo" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="USUGES">
+          <Key>
+            <PropertyRef Name="IdUsuGes" />
+          </Key>
+          <Property Name="IdUsuGes" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdTecnico" Type="int" />
+          <Property Name="NombreUsuGes" Type="nchar" MaxLength="10" />
+          <Property Name="KeyApp" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nivel" Type="int" />
+        </EntityType>
+        <Association Name="FK_ALTA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.Store.HISTORIA" Multiplicity="1" />
+          <End Role="ALTA" Type="bdAlejandriaCTAModel.Store.ALTA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="ALTA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Apertura_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.Store.HISTORIA" Multiplicity="1" />
+          <End Role="Apertura" Type="bdAlejandriaCTAModel.Store.Apertura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="Apertura">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Apertura_TECNICOS">
+          <End Role="TECNICOS" Type="bdAlejandriaCTAModel.Store.TECNICOS" Multiplicity="1" />
+          <End Role="Apertura" Type="bdAlejandriaCTAModel.Store.Apertura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TECNICOS">
+              <PropertyRef Name="IdTecnico" />
+            </Principal>
+            <Dependent Role="Apertura">
+              <PropertyRef Name="IdTecnico" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ASISTENTES_TERAPIA_PACIENTES">
+          <End Role="PACIENTES" Type="bdAlejandriaCTAModel.Store.PACIENTES" Multiplicity="1" />
+          <End Role="ASISTENTES_TERAPIA" Type="bdAlejandriaCTAModel.Store.ASISTENTES_TERAPIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PACIENTES">
+              <PropertyRef Name="IdPaciente" />
+            </Principal>
+            <Dependent Role="ASISTENTES_TERAPIA">
+              <PropertyRef Name="IdPaciente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ASISTENTES_TERAPIA_TERAPIAS">
+          <End Role="TERAPIAS" Type="bdAlejandriaCTAModel.Store.TERAPIAS" Multiplicity="1" />
+          <End Role="ASISTENTES_TERAPIA" Type="bdAlejandriaCTAModel.Store.ASISTENTES_TERAPIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TERAPIAS">
+              <PropertyRef Name="IdTerapia" />
+            </Principal>
+            <Dependent Role="ASISTENTES_TERAPIA">
+              <PropertyRef Name="IdTerapia" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CITAS_PACIENTES">
+          <End Role="PACIENTES" Type="bdAlejandriaCTAModel.Store.PACIENTES" Multiplicity="1" />
+          <End Role="CITAS" Type="bdAlejandriaCTAModel.Store.CITAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PACIENTES">
+              <PropertyRef Name="IdPaciente" />
+            </Principal>
+            <Dependent Role="CITAS">
+              <PropertyRef Name="IdPaciente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CITAS_TECNICOS">
+          <End Role="TECNICOS" Type="bdAlejandriaCTAModel.Store.TECNICOS" Multiplicity="1" />
+          <End Role="CITAS" Type="bdAlejandriaCTAModel.Store.CITAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TECNICOS">
+              <PropertyRef Name="IdTecnico" />
+            </Principal>
+            <Dependent Role="CITAS">
+              <PropertyRef Name="IdTecnico" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HISTORIA_MEDICA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.Store.HISTORIA" Multiplicity="1" />
+          <End Role="HISTORIA_MEDICA" Type="bdAlejandriaCTAModel.Store.HISTORIA_MEDICA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="HISTORIA_MEDICA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HISTORIA_PSICOLOGICA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.Store.HISTORIA" Multiplicity="1" />
+          <End Role="HISTORIA_PSICOLOGICA" Type="bdAlejandriaCTAModel.Store.HISTORIA_PSICOLOGICA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="HISTORIA_PSICOLOGICA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HISTORIA_SOCIAL_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.Store.HISTORIA" Multiplicity="1" />
+          <End Role="HISTORIA_SOCIAL" Type="bdAlejandriaCTAModel.Store.HISTORIA_SOCIAL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="HISTORIA_SOCIAL">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_INGRESO_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.Store.HISTORIA" Multiplicity="1" />
+          <End Role="INGRESO" Type="bdAlejandriaCTAModel.Store.INGRESO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="INGRESO">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PACIENTES_FACTURACION">
+          <End Role="FACTURACION" Type="bdAlejandriaCTAModel.Store.FACTURACION" Multiplicity="0..1" />
+          <End Role="PACIENTES" Type="bdAlejandriaCTAModel.Store.PACIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FACTURACION">
+              <PropertyRef Name="CodFacturacion" />
+            </Principal>
+            <Dependent Role="PACIENTES">
+              <PropertyRef Name="CodFacturacion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UNIDAD_CONVIVENCIA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.Store.HISTORIA" Multiplicity="1" />
+          <End Role="UNIDAD_CONVIVENCIA" Type="bdAlejandriaCTAModel.Store.UNIDAD_CONVIVENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="UNIDAD_CONVIVENCIA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_USUGES_TECNICOS">
+          <End Role="TECNICOS" Type="bdAlejandriaCTAModel.Store.TECNICOS" Multiplicity="0..1" />
+          <End Role="USUGES" Type="bdAlejandriaCTAModel.Store.USUGES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TECNICOS">
+              <PropertyRef Name="IdTecnico" />
+            </Principal>
+            <Dependent Role="USUGES">
+              <PropertyRef Name="IdTecnico" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="bdAlejandriaCTAModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="bdAlejandriaCTAEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ALTA" EntityType="bdAlejandriaCTAModel.ALTA" />
+          <EntitySet Name="Apertura" EntityType="bdAlejandriaCTAModel.Apertura" />
+          <EntitySet Name="ASISTENTES_TERAPIA" EntityType="bdAlejandriaCTAModel.ASISTENTES_TERAPIA" />
+          <EntitySet Name="CITAS" EntityType="bdAlejandriaCTAModel.CITAS" />
+          <EntitySet Name="FACTURACION" EntityType="bdAlejandriaCTAModel.FACTURACION" />
+          <EntitySet Name="HISTORIA" EntityType="bdAlejandriaCTAModel.HISTORIA" />
+          <EntitySet Name="HISTORIA_MEDICA" EntityType="bdAlejandriaCTAModel.HISTORIA_MEDICA" />
+          <EntitySet Name="HISTORIA_PSICOLOGICA" EntityType="bdAlejandriaCTAModel.HISTORIA_PSICOLOGICA" />
+          <EntitySet Name="HISTORIA_SOCIAL" EntityType="bdAlejandriaCTAModel.HISTORIA_SOCIAL" />
+          <EntitySet Name="INGRESO" EntityType="bdAlejandriaCTAModel.INGRESO" />
+          <EntitySet Name="PACIENTES" EntityType="bdAlejandriaCTAModel.PACIENTES" />
+          <EntitySet Name="TECNICOS" EntityType="bdAlejandriaCTAModel.TECNICOS" />
+          <EntitySet Name="TERAPIAS" EntityType="bdAlejandriaCTAModel.TERAPIAS" />
+          <EntitySet Name="UNIDAD_CONVIVENCIA" EntityType="bdAlejandriaCTAModel.UNIDAD_CONVIVENCIA" />
+          <EntitySet Name="USUGES" EntityType="bdAlejandriaCTAModel.USUGES" />
+          <AssociationSet Name="FK_ALTA_HISTORIA" Association="bdAlejandriaCTAModel.FK_ALTA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="ALTA" EntitySet="ALTA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Apertura_HISTORIA" Association="bdAlejandriaCTAModel.FK_Apertura_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="Apertura" EntitySet="Apertura" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Apertura_TECNICOS" Association="bdAlejandriaCTAModel.FK_Apertura_TECNICOS">
+            <End Role="TECNICOS" EntitySet="TECNICOS" />
+            <End Role="Apertura" EntitySet="Apertura" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ASISTENTES_TERAPIA_PACIENTES" Association="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_PACIENTES">
+            <End Role="PACIENTES" EntitySet="PACIENTES" />
+            <End Role="ASISTENTES_TERAPIA" EntitySet="ASISTENTES_TERAPIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ASISTENTES_TERAPIA_TERAPIAS" Association="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_TERAPIAS">
+            <End Role="TERAPIAS" EntitySet="TERAPIAS" />
+            <End Role="ASISTENTES_TERAPIA" EntitySet="ASISTENTES_TERAPIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CITAS_PACIENTES" Association="bdAlejandriaCTAModel.FK_CITAS_PACIENTES">
+            <End Role="PACIENTES" EntitySet="PACIENTES" />
+            <End Role="CITAS" EntitySet="CITAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CITAS_TECNICOS" Association="bdAlejandriaCTAModel.FK_CITAS_TECNICOS">
+            <End Role="TECNICOS" EntitySet="TECNICOS" />
+            <End Role="CITAS" EntitySet="CITAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PACIENTES_FACTURACION" Association="bdAlejandriaCTAModel.FK_PACIENTES_FACTURACION">
+            <End Role="FACTURACION" EntitySet="FACTURACION" />
+            <End Role="PACIENTES" EntitySet="PACIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HISTORIA_MEDICA_HISTORIA" Association="bdAlejandriaCTAModel.FK_HISTORIA_MEDICA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="HISTORIA_MEDICA" EntitySet="HISTORIA_MEDICA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HISTORIA_PSICOLOGICA_HISTORIA" Association="bdAlejandriaCTAModel.FK_HISTORIA_PSICOLOGICA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="HISTORIA_PSICOLOGICA" EntitySet="HISTORIA_PSICOLOGICA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HISTORIA_SOCIAL_HISTORIA" Association="bdAlejandriaCTAModel.FK_HISTORIA_SOCIAL_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="HISTORIA_SOCIAL" EntitySet="HISTORIA_SOCIAL" />
+          </AssociationSet>
+          <AssociationSet Name="FK_INGRESO_HISTORIA" Association="bdAlejandriaCTAModel.FK_INGRESO_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="INGRESO" EntitySet="INGRESO" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UNIDAD_CONVIVENCIA_HISTORIA" Association="bdAlejandriaCTAModel.FK_UNIDAD_CONVIVENCIA_HISTORIA">
+            <End Role="HISTORIA" EntitySet="HISTORIA" />
+            <End Role="UNIDAD_CONVIVENCIA" EntitySet="UNIDAD_CONVIVENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_USUGES_TECNICOS" Association="bdAlejandriaCTAModel.FK_USUGES_TECNICOS">
+            <End Role="TECNICOS" EntitySet="TECNICOS" />
+            <End Role="USUGES" EntitySet="USUGES" />
+          </AssociationSet>
+          <EntitySet Name="DESCONECTADA" EntityType="bdAlejandriaCTAModel.DESCONECTADA" />
+          <EntitySet Name="CODIGOS_FACTURACION" EntityType="bdAlejandriaCTAModel.CODIGOS_FACTURACION" />
+          <EntitySet Name="FACTURACION_REAL" EntityType="bdAlejandriaCTAModel.FACTURACION_REAL" />
+        </EntityContainer>
+        <EntityType Name="ALTA">
+          <Key>
+            <PropertyRef Name="IdHistoria" />
+            <PropertyRef Name="FechaAlta" />
+          </Key>
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FechaAlta" Type="DateTime" Nullable="false" />
+          <Property Name="MotivoAlta" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="HISTORIA" Relationship="bdAlejandriaCTAModel.FK_ALTA_HISTORIA" FromRole="ALTA" ToRole="HISTORIA" />
+        </EntityType>
+        <EntityType Name="Apertura">
+          <Key>
+            <PropertyRef Name="IdTecnico" />
+            <PropertyRef Name="IdHistoria" />
+            <PropertyRef Name="FechaApertura" />
+          </Key>
+          <Property Name="IdTecnico" Type="Int32" Nullable="false" />
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FechaApertura" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="HISTORIA" Relationship="bdAlejandriaCTAModel.FK_Apertura_HISTORIA" FromRole="Apertura" ToRole="HISTORIA" />
+          <NavigationProperty Name="TECNICOS" Relationship="bdAlejandriaCTAModel.FK_Apertura_TECNICOS" FromRole="Apertura" ToRole="TECNICOS" />
+        </EntityType>
+        <EntityType Name="ASISTENTES_TERAPIA">
+          <Key>
+            <PropertyRef Name="IdTerapia" />
+            <PropertyRef Name="IdPaciente" />
+            <PropertyRef Name="FechaTerapia" />
+          </Key>
+          <Property Name="IdTerapia" Type="Int32" Nullable="false" />
+          <Property Name="IdPaciente" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Asistencia" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="FechaTerapia" Type="DateTime" Nullable="false" />
+          <Property Name="HoraTerapia" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <NavigationProperty Name="PACIENTES" Relationship="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_PACIENTES" FromRole="ASISTENTES_TERAPIA" ToRole="PACIENTES" />
+          <NavigationProperty Name="TERAPIAS" Relationship="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_TERAPIAS" FromRole="ASISTENTES_TERAPIA" ToRole="TERAPIAS" />
+        </EntityType>
+        <EntityType Name="CITAS">
+          <Key>
+            <PropertyRef Name="IdTecnico" />
+            <PropertyRef Name="IdPaciente" />
+            <PropertyRef Name="FechaCita" />
+          </Key>
+          <Property Name="IdTecnico" Type="Int32" Nullable="false" />
+          <Property Name="IdPaciente" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FechaCita" Type="DateTime" Nullable="false" />
+          <Property Name="HoraCita" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="Asistencia" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <NavigationProperty Name="PACIENTES" Relationship="bdAlejandriaCTAModel.FK_CITAS_PACIENTES" FromRole="CITAS" ToRole="PACIENTES" />
+          <NavigationProperty Name="TECNICOS" Relationship="bdAlejandriaCTAModel.FK_CITAS_TECNICOS" FromRole="CITAS" ToRole="TECNICOS" />
+        </EntityType>
+        <EntityType Name="FACTURACION">
+          <Key>
+            <PropertyRef Name="CodFacturacion" />
+          </Key>
+          <Property Name="CodFacturacion" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="PACIENTES" Relationship="bdAlejandriaCTAModel.FK_PACIENTES_FACTURACION" FromRole="FACTURACION" ToRole="PACIENTES" />
+        </EntityType>
+        <EntityType Name="HISTORIA">
+          <Key>
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DemandaIncialTTo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="TToAnterior" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="TToActual" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="EnfermedadesRelevantes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="IdPaciente" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <NavigationProperty Name="ALTA" Relationship="bdAlejandriaCTAModel.FK_ALTA_HISTORIA" FromRole="HISTORIA" ToRole="ALTA" />
+          <NavigationProperty Name="Apertura" Relationship="bdAlejandriaCTAModel.FK_Apertura_HISTORIA" FromRole="HISTORIA" ToRole="Apertura" />
+          <NavigationProperty Name="HISTORIA_MEDICA" Relationship="bdAlejandriaCTAModel.FK_HISTORIA_MEDICA_HISTORIA" FromRole="HISTORIA" ToRole="HISTORIA_MEDICA" />
+          <NavigationProperty Name="HISTORIA_PSICOLOGICA" Relationship="bdAlejandriaCTAModel.FK_HISTORIA_PSICOLOGICA_HISTORIA" FromRole="HISTORIA" ToRole="HISTORIA_PSICOLOGICA" />
+          <NavigationProperty Name="HISTORIA_SOCIAL" Relationship="bdAlejandriaCTAModel.FK_HISTORIA_SOCIAL_HISTORIA" FromRole="HISTORIA" ToRole="HISTORIA_SOCIAL" />
+          <NavigationProperty Name="INGRESO" Relationship="bdAlejandriaCTAModel.FK_INGRESO_HISTORIA" FromRole="HISTORIA" ToRole="INGRESO" />
+          <NavigationProperty Name="UNIDAD_CONVIVENCIA" Relationship="bdAlejandriaCTAModel.FK_UNIDAD_CONVIVENCIA_HISTORIA" FromRole="HISTORIA" ToRole="UNIDAD_CONVIVENCIA" />
+        </EntityType>
+        <EntityType Name="HISTORIA_MEDICA">
+          <Key>
+            <PropertyRef Name="IdHistoriaMedica" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoriaMedica" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SeguimientoMedico" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ObservacionesMedico" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="HISTORIA" Relationship="bdAlejandriaCTAModel.FK_HISTORIA_MEDICA_HISTORIA" FromRole="HISTORIA_MEDICA" ToRole="HISTORIA" />
+          <Property Type="String" Name="VIH" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="VHB" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="VHC" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="SEROLOGIA_LUES" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="MANTOUX" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Pruebas_Hepaticas" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Hemograma" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Bioquimica" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Patologias_Somaticas_Asociadas" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Patologias_Psiquiatricas" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Antecedentes_Interes" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Alergias" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Hospitalizaciones" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Cirugia" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Peso" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Talla" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Tension_Arterial" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Pulso" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Temperatura" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Adenopatias" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Venopuncion" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Caries" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Tatuajes" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="TTo_General" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TTo_Especifico" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TTo_Psiquiatra" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Desintoxicacion" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Reduccion" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Programa_Libre_Drogas" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Otras_Patologias_Somaticas" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="HISTORIA_PSICOLOGICA">
+          <Key>
+            <PropertyRef Name="IdHistoriaPs" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoriaPs" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SeguimientoPs" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ObservacionesPs" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="HISTORIA" Relationship="bdAlejandriaCTAModel.FK_HISTORIA_PSICOLOGICA_HISTORIA" FromRole="HISTORIA_PSICOLOGICA" ToRole="HISTORIA" />
+          <Property Type="String" Name="Fecha1Entrevista" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="QuienDemanda" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="InformacionDemanda" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Anamnesis" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="PercpPaciente" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="PercpEntorno" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Quejoso" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TTosAnteriores" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="SolucionesIntentadas" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="CausasConsecuencias" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="PruebasAnaliticas" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Comorbilidad" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Diagnostico" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Protocolo" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Objetivos" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Tecnicas" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Tareas" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="HISTORIA_SOCIAL">
+          <Key>
+            <PropertyRef Name="IdHistoriaSocial" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdHistoriaSocial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ConsumoDrogas" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="DrogaConsPrincipal" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="EdadInicioCons" Type="Int32" />
+          <Property Name="ConsOtrasDrog" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="OtrasDrog" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Genograma" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Vivienda" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SitLabActual" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SitEconom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SitJudicial" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FormacionReglada" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FormacionComplem" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="EntornoSocial" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="OcioTiempLibre" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DemandaPresentTS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="AtencionPrestada" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="AnotacionesTS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DiagnosticoSocial" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ObservacionesTS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="HISTORIA" Relationship="bdAlejandriaCTAModel.FK_HISTORIA_SOCIAL_HISTORIA" FromRole="HISTORIA_SOCIAL" ToRole="HISTORIA" />
+        </EntityType>
+        <EntityType Name="INGRESO">
+          <Key>
+            <PropertyRef Name="IdHistoria" />
+            <PropertyRef Name="FechaAdmisionTTo" />
+          </Key>
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FechaAdmisionTTo" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="HISTORIA" Relationship="bdAlejandriaCTAModel.FK_INGRESO_HISTORIA" FromRole="INGRESO" ToRole="HISTORIA" />
+        </EntityType>
+        <EntityType Name="PACIENTES">
+          <Key>
+            <PropertyRef Name="IdPaciente" />
+          </Key>
+          <Property Name="IdPaciente" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="NombrePaciente" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DNI" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="Direccion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Telefono" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="Movil" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="Mail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="EstadoCivil" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="FechaNacimiento" Type="DateTime" />
+          <Property Name="CP" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="Localidad" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Provincia" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="SitLabInicioTTo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FechaDesempleo" Type="DateTime" />
+          <Property Name="FechaPrestDesempl" Type="DateTime" />
+          <Property Name="DemandaInicioTTo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CodFacturacion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="ASISTENTES_TERAPIA" Relationship="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_PACIENTES" FromRole="PACIENTES" ToRole="ASISTENTES_TERAPIA" />
+          <NavigationProperty Name="CITAS" Relationship="bdAlejandriaCTAModel.FK_CITAS_PACIENTES" FromRole="PACIENTES" ToRole="CITAS" />
+          <NavigationProperty Name="FACTURACION" Relationship="bdAlejandriaCTAModel.FK_PACIENTES_FACTURACION" FromRole="PACIENTES" ToRole="FACTURACION" />
+          <Property Type="String" Name="Sexo" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TECNICOS">
+          <Key>
+            <PropertyRef Name="IdTecnico" />
+          </Key>
+          <Property Name="IdTecnico" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombreTecnico" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Profesion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Apertura" Relationship="bdAlejandriaCTAModel.FK_Apertura_TECNICOS" FromRole="TECNICOS" ToRole="Apertura" />
+          <NavigationProperty Name="CITAS" Relationship="bdAlejandriaCTAModel.FK_CITAS_TECNICOS" FromRole="TECNICOS" ToRole="CITAS" />
+          <NavigationProperty Name="USUGES" Relationship="bdAlejandriaCTAModel.FK_USUGES_TECNICOS" FromRole="TECNICOS" ToRole="USUGES" />
+        </EntityType>
+        <EntityType Name="TERAPIAS">
+          <Key>
+            <PropertyRef Name="IdTerapia" />
+          </Key>
+          <Property Name="IdTerapia" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdTecnico" Type="Int32" />
+          <Property Name="NombreTerapia" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="ASISTENTES_TERAPIA" Relationship="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_TERAPIAS" FromRole="TERAPIAS" ToRole="ASISTENTES_TERAPIA" />
+        </EntityType>
+        <EntityType Name="UNIDAD_CONVIVENCIA">
+          <Key>
+            <PropertyRef Name="IdUnidConv" />
+            <PropertyRef Name="IdHistoria" />
+          </Key>
+          <Property Name="IdUnidConv" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdHistoria" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="NombreConviviente" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="EdadConviviente" Type="Int32" />
+          <Property Name="ParentescoConviviente" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SitLabConvivente" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FamiliarEnTTo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="HISTORIA" Relationship="bdAlejandriaCTAModel.FK_UNIDAD_CONVIVENCIA_HISTORIA" FromRole="UNIDAD_CONVIVENCIA" ToRole="HISTORIA" />
+        </EntityType>
+        <EntityType Name="USUGES">
+          <Key>
+            <PropertyRef Name="IdUsuGes" />
+          </Key>
+          <Property Name="IdUsuGes" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdTecnico" Type="Int32" />
+          <Property Name="NombreUsuGes" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="KeyApp" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Nivel" Type="Int32" />
+          <NavigationProperty Name="TECNICOS" Relationship="bdAlejandriaCTAModel.FK_USUGES_TECNICOS" FromRole="USUGES" ToRole="TECNICOS" />
+        </EntityType>
+        <Association Name="FK_ALTA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.HISTORIA" Multiplicity="1" />
+          <End Role="ALTA" Type="bdAlejandriaCTAModel.ALTA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="ALTA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Apertura_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.HISTORIA" Multiplicity="1" />
+          <End Role="Apertura" Type="bdAlejandriaCTAModel.Apertura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="Apertura">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Apertura_TECNICOS">
+          <End Role="TECNICOS" Type="bdAlejandriaCTAModel.TECNICOS" Multiplicity="1" />
+          <End Role="Apertura" Type="bdAlejandriaCTAModel.Apertura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TECNICOS">
+              <PropertyRef Name="IdTecnico" />
+            </Principal>
+            <Dependent Role="Apertura">
+              <PropertyRef Name="IdTecnico" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ASISTENTES_TERAPIA_PACIENTES">
+          <End Role="PACIENTES" Type="bdAlejandriaCTAModel.PACIENTES" Multiplicity="1" />
+          <End Role="ASISTENTES_TERAPIA" Type="bdAlejandriaCTAModel.ASISTENTES_TERAPIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PACIENTES">
+              <PropertyRef Name="IdPaciente" />
+            </Principal>
+            <Dependent Role="ASISTENTES_TERAPIA">
+              <PropertyRef Name="IdPaciente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ASISTENTES_TERAPIA_TERAPIAS">
+          <End Role="TERAPIAS" Type="bdAlejandriaCTAModel.TERAPIAS" Multiplicity="1" />
+          <End Role="ASISTENTES_TERAPIA" Type="bdAlejandriaCTAModel.ASISTENTES_TERAPIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TERAPIAS">
+              <PropertyRef Name="IdTerapia" />
+            </Principal>
+            <Dependent Role="ASISTENTES_TERAPIA">
+              <PropertyRef Name="IdTerapia" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CITAS_PACIENTES">
+          <End Role="PACIENTES" Type="bdAlejandriaCTAModel.PACIENTES" Multiplicity="1" />
+          <End Role="CITAS" Type="bdAlejandriaCTAModel.CITAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PACIENTES">
+              <PropertyRef Name="IdPaciente" />
+            </Principal>
+            <Dependent Role="CITAS">
+              <PropertyRef Name="IdPaciente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CITAS_TECNICOS">
+          <End Role="TECNICOS" Type="bdAlejandriaCTAModel.TECNICOS" Multiplicity="1" />
+          <End Role="CITAS" Type="bdAlejandriaCTAModel.CITAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TECNICOS">
+              <PropertyRef Name="IdTecnico" />
+            </Principal>
+            <Dependent Role="CITAS">
+              <PropertyRef Name="IdTecnico" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PACIENTES_FACTURACION">
+          <End Role="FACTURACION" Type="bdAlejandriaCTAModel.FACTURACION" Multiplicity="0..1" />
+          <End Role="PACIENTES" Type="bdAlejandriaCTAModel.PACIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FACTURACION">
+              <PropertyRef Name="CodFacturacion" />
+            </Principal>
+            <Dependent Role="PACIENTES">
+              <PropertyRef Name="CodFacturacion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HISTORIA_MEDICA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.HISTORIA" Multiplicity="1" />
+          <End Role="HISTORIA_MEDICA" Type="bdAlejandriaCTAModel.HISTORIA_MEDICA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="HISTORIA_MEDICA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HISTORIA_PSICOLOGICA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.HISTORIA" Multiplicity="1" />
+          <End Role="HISTORIA_PSICOLOGICA" Type="bdAlejandriaCTAModel.HISTORIA_PSICOLOGICA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="HISTORIA_PSICOLOGICA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HISTORIA_SOCIAL_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.HISTORIA" Multiplicity="1" />
+          <End Role="HISTORIA_SOCIAL" Type="bdAlejandriaCTAModel.HISTORIA_SOCIAL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="HISTORIA_SOCIAL">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_INGRESO_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.HISTORIA" Multiplicity="1" />
+          <End Role="INGRESO" Type="bdAlejandriaCTAModel.INGRESO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="INGRESO">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UNIDAD_CONVIVENCIA_HISTORIA">
+          <End Role="HISTORIA" Type="bdAlejandriaCTAModel.HISTORIA" Multiplicity="1" />
+          <End Role="UNIDAD_CONVIVENCIA" Type="bdAlejandriaCTAModel.UNIDAD_CONVIVENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HISTORIA">
+              <PropertyRef Name="IdHistoria" />
+            </Principal>
+            <Dependent Role="UNIDAD_CONVIVENCIA">
+              <PropertyRef Name="IdHistoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_USUGES_TECNICOS">
+          <End Role="TECNICOS" Type="bdAlejandriaCTAModel.TECNICOS" Multiplicity="0..1" />
+          <End Role="USUGES" Type="bdAlejandriaCTAModel.USUGES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TECNICOS">
+              <PropertyRef Name="IdTecnico" />
+            </Principal>
+            <Dependent Role="USUGES">
+              <PropertyRef Name="IdTecnico" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="DESCONECTADA">
+          <Key>
+            <PropertyRef Name="IdNoPaciente" />
+          </Key>
+          <Property Type="Int32" Name="IdNoPaciente" Nullable="false" />
+          <Property Type="String" Name="Nombre_Cita" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Tecnico_Cita" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Fecha_Cita" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Hora_Cita" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CODIGOS_FACTURACION">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Type="String" Name="Codigo" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Denominacion" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Precio" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FACTURACION_REAL">
+          <Key>
+            <PropertyRef Name="CodFacturacion" />
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Type="String" Name="CodFacturacion" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Codigo" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Cantidad" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="PagosAlDia" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="bdAlejandriaCTAModelStoreContainer" CdmEntityContainer="bdAlejandriaCTAEntities1">
+          <EntitySetMapping Name="ALTA"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.ALTA"><MappingFragment StoreEntitySet="ALTA">
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+            <ScalarProperty Name="MotivoAlta" ColumnName="MotivoAlta" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Apertura"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.Apertura"><MappingFragment StoreEntitySet="Apertura">
+            <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="FechaApertura" ColumnName="FechaApertura" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="ASISTENTES_TERAPIA"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.ASISTENTES_TERAPIA"><MappingFragment StoreEntitySet="ASISTENTES_TERAPIA">
+            <ScalarProperty Name="IdTerapia" ColumnName="IdTerapia" />
+            <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+            <ScalarProperty Name="Asistencia" ColumnName="Asistencia" />
+            <ScalarProperty Name="FechaTerapia" ColumnName="FechaTerapia" />
+            <ScalarProperty Name="HoraTerapia" ColumnName="HoraTerapia" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="CITAS"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.CITAS"><MappingFragment StoreEntitySet="CITAS">
+            <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+            <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+            <ScalarProperty Name="FechaCita" ColumnName="FechaCita" />
+            <ScalarProperty Name="HoraCita" ColumnName="HoraCita" />
+            <ScalarProperty Name="Asistencia" ColumnName="Asistencia" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="FACTURACION"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.FACTURACION"><MappingFragment StoreEntitySet="FACTURACION">
+                <ScalarProperty Name="CodFacturacion" ColumnName="CodFacturacion" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="HISTORIA"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA"><MappingFragment StoreEntitySet="HISTORIA">
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="DemandaIncialTTo" ColumnName="DemandaIncialTTo" />
+            <ScalarProperty Name="TToAnterior" ColumnName="TToAnterior" />
+            <ScalarProperty Name="TToActual" ColumnName="TToActual" />
+            <ScalarProperty Name="EnfermedadesRelevantes" ColumnName="EnfermedadesRelevantes" />
+            <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="HISTORIA_MEDICA"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA_MEDICA"><MappingFragment StoreEntitySet="HISTORIA_MEDICA">
+            <ScalarProperty Name="Otras_Patologias_Somaticas" ColumnName="Otras_Patologias_Somaticas" />
+                <ScalarProperty Name="Programa_Libre_Drogas" ColumnName="Programa_Libre_Drogas" />
+                <ScalarProperty Name="Reduccion" ColumnName="Reduccion" />
+                <ScalarProperty Name="Desintoxicacion" ColumnName="Desintoxicacion" />
+                <ScalarProperty Name="TTo_Psiquiatra" ColumnName="TTo_Psiquiatra" />
+                <ScalarProperty Name="TTo_Especifico" ColumnName="TTo_Especifico" />
+                <ScalarProperty Name="TTo_General" ColumnName="TTo_General" />
+                <ScalarProperty Name="Tatuajes" ColumnName="Tatuajes" />
+                <ScalarProperty Name="Caries" ColumnName="Caries" />
+                <ScalarProperty Name="Venopuncion" ColumnName="Venopuncion" />
+                <ScalarProperty Name="Adenopatias" ColumnName="Adenopatias" />
+                <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+                <ScalarProperty Name="Pulso" ColumnName="Pulso" />
+                <ScalarProperty Name="Tension_Arterial" ColumnName="Tension_Arterial" />
+                <ScalarProperty Name="Talla" ColumnName="Talla" />
+                <ScalarProperty Name="Peso" ColumnName="Peso" />
+                <ScalarProperty Name="Cirugia" ColumnName="Cirugia" />
+                <ScalarProperty Name="Hospitalizaciones" ColumnName="Hospitalizaciones" />
+                <ScalarProperty Name="Alergias" ColumnName="Alergias" />
+                <ScalarProperty Name="Antecedentes_Interes" ColumnName="Antecedentes_Interes" />
+                <ScalarProperty Name="Patologias_Psiquiatricas" ColumnName="Patologias_Psiquiatricas" />
+                <ScalarProperty Name="Patologias_Somaticas_Asociadas" ColumnName="Patologias_Somaticas_Asociadas" />
+                <ScalarProperty Name="Bioquimica" ColumnName="Bioquimica" />
+                <ScalarProperty Name="Hemograma" ColumnName="Hemograma" />
+                <ScalarProperty Name="Pruebas_Hepaticas" ColumnName="Pruebas_Hepaticas" />
+                <ScalarProperty Name="MANTOUX" ColumnName="MANTOUX" />
+                <ScalarProperty Name="SEROLOGIA_LUES" ColumnName="SEROLOGIA_LUES" />
+                <ScalarProperty Name="VHC" ColumnName="VHC" />
+                <ScalarProperty Name="VHB" ColumnName="VHB" />
+                <ScalarProperty Name="VIH" ColumnName="VIH" />
+                <ScalarProperty Name="IdHistoriaMedica" ColumnName="IdHistoriaMedica" />
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="SeguimientoMedico" ColumnName="SeguimientoMedico" />
+            <ScalarProperty Name="ObservacionesMedico" ColumnName="ObservacionesMedico" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="HISTORIA_PSICOLOGICA"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA_PSICOLOGICA"><MappingFragment StoreEntitySet="HISTORIA_PSICOLOGICA">
+            <ScalarProperty Name="Tareas" ColumnName="Tareas" />
+                <ScalarProperty Name="Tecnicas" ColumnName="Tecnicas" />
+                <ScalarProperty Name="Objetivos" ColumnName="Objetivos" />
+                <ScalarProperty Name="Protocolo" ColumnName="Protocolo" />
+                <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+                <ScalarProperty Name="Comorbilidad" ColumnName="Comorbilidad" />
+                <ScalarProperty Name="PruebasAnaliticas" ColumnName="PruebasAnaliticas" />
+                <ScalarProperty Name="CausasConsecuencias" ColumnName="CausasConsecuencias" />
+                <ScalarProperty Name="SolucionesIntentadas" ColumnName="SolucionesIntentadas" />
+                <ScalarProperty Name="TTosAnteriores" ColumnName="TTosAnteriores" />
+                <ScalarProperty Name="Quejoso" ColumnName="Quejoso" />
+                <ScalarProperty Name="PercpEntorno" ColumnName="PercpEntorno" />
+                <ScalarProperty Name="PercpPaciente" ColumnName="PercpPaciente" />
+                <ScalarProperty Name="Anamnesis" ColumnName="Anamnesis" />
+                <ScalarProperty Name="InformacionDemanda" ColumnName="InformacionDemanda" />
+                <ScalarProperty Name="QuienDemanda" ColumnName="QuienDemanda" />
+                <ScalarProperty Name="Fecha1Entrevista" ColumnName="Fecha1Entrevista" />
+                <ScalarProperty Name="IdHistoriaPs" ColumnName="IdHistoriaPs" />
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="SeguimientoPs" ColumnName="SeguimientoPs" />
+            <ScalarProperty Name="ObservacionesPs" ColumnName="ObservacionesPs" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="HISTORIA_SOCIAL"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.HISTORIA_SOCIAL"><MappingFragment StoreEntitySet="HISTORIA_SOCIAL">
+            <ScalarProperty Name="IdHistoriaSocial" ColumnName="IdHistoriaSocial" />
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="ConsumoDrogas" ColumnName="ConsumoDrogas" />
+            <ScalarProperty Name="DrogaConsPrincipal" ColumnName="DrogaConsPrincipal" />
+            <ScalarProperty Name="EdadInicioCons" ColumnName="EdadInicioCons" />
+            <ScalarProperty Name="ConsOtrasDrog" ColumnName="ConsOtrasDrog" />
+            <ScalarProperty Name="OtrasDrog" ColumnName="OtrasDrog" />
+            <ScalarProperty Name="Genograma" ColumnName="Genograma" />
+            <ScalarProperty Name="Vivienda" ColumnName="Vivienda" />
+            <ScalarProperty Name="SitLabActual" ColumnName="SitLabActual" />
+            <ScalarProperty Name="SitEconom" ColumnName="SitEconom" />
+            <ScalarProperty Name="SitJudicial" ColumnName="SitJudicial" />
+            <ScalarProperty Name="FormacionReglada" ColumnName="FormacionReglada" />
+            <ScalarProperty Name="FormacionComplem" ColumnName="FormacionComplem" />
+            <ScalarProperty Name="EntornoSocial" ColumnName="EntornoSocial" />
+            <ScalarProperty Name="OcioTiempLibre" ColumnName="OcioTiempLibre" />
+            <ScalarProperty Name="DemandaPresentTS" ColumnName="DemandaPresentTS" />
+            <ScalarProperty Name="AtencionPrestada" ColumnName="AtencionPrestada" />
+            <ScalarProperty Name="AnotacionesTS" ColumnName="AnotacionesTS" />
+            <ScalarProperty Name="DiagnosticoSocial" ColumnName="DiagnosticoSocial" />
+            <ScalarProperty Name="ObservacionesTS" ColumnName="ObservacionesTS" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="INGRESO"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.INGRESO"><MappingFragment StoreEntitySet="INGRESO">
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="FechaAdmisionTTo" ColumnName="FechaAdmisionTTo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="PACIENTES"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.PACIENTES"><MappingFragment StoreEntitySet="PACIENTES">
+            <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+                <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+            <ScalarProperty Name="NombrePaciente" ColumnName="NombrePaciente" />
+            <ScalarProperty Name="DNI" ColumnName="DNI" />
+            <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+            <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+            <ScalarProperty Name="Movil" ColumnName="Movil" />
+            <ScalarProperty Name="Mail" ColumnName="Mail" />
+            <ScalarProperty Name="EstadoCivil" ColumnName="EstadoCivil" />
+            <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+            <ScalarProperty Name="CP" ColumnName="CP" />
+            <ScalarProperty Name="Localidad" ColumnName="Localidad" />
+            <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+            <ScalarProperty Name="SitLabInicioTTo" ColumnName="SitLabInicioTTo" />
+            <ScalarProperty Name="FechaDesempleo" ColumnName="FechaDesempleo" />
+            <ScalarProperty Name="FechaPrestDesempl" ColumnName="FechaPrestDesempl" />
+            <ScalarProperty Name="DemandaInicioTTo" ColumnName="DemandaInicioTTo" />
+            <ScalarProperty Name="CodFacturacion" ColumnName="CodFacturacion" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="TECNICOS"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.TECNICOS"><MappingFragment StoreEntitySet="TECNICOS">
+            <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+            <ScalarProperty Name="NombreTecnico" ColumnName="NombreTecnico" />
+            <ScalarProperty Name="Profesion" ColumnName="Profesion" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="TERAPIAS"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.TERAPIAS"><MappingFragment StoreEntitySet="TERAPIAS">
+            <ScalarProperty Name="IdTerapia" ColumnName="IdTerapia" />
+            <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+            <ScalarProperty Name="NombreTerapia" ColumnName="NombreTerapia" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="UNIDAD_CONVIVENCIA"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.UNIDAD_CONVIVENCIA"><MappingFragment StoreEntitySet="UNIDAD_CONVIVENCIA">
+            <ScalarProperty Name="IdUnidConv" ColumnName="IdUnidConv" />
+            <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+            <ScalarProperty Name="NombreConviviente" ColumnName="NombreConviviente" />
+            <ScalarProperty Name="EdadConviviente" ColumnName="EdadConviviente" />
+            <ScalarProperty Name="ParentescoConviviente" ColumnName="ParentescoConviviente" />
+            <ScalarProperty Name="SitLabConvivente" ColumnName="SitLabConvivente" />
+            <ScalarProperty Name="FamiliarEnTTo" ColumnName="FamiliarEnTTo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="USUGES"><EntityTypeMapping TypeName="bdAlejandriaCTAModel.USUGES"><MappingFragment StoreEntitySet="USUGES">
+            <ScalarProperty Name="IdUsuGes" ColumnName="IdUsuGes" />
+            <ScalarProperty Name="IdTecnico" ColumnName="IdTecnico" />
+            <ScalarProperty Name="NombreUsuGes" ColumnName="NombreUsuGes" />
+            <ScalarProperty Name="KeyApp" ColumnName="KeyApp" />
+            <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="DESCONECTADA">
+            <EntityTypeMapping TypeName="bdAlejandriaCTAModel.DESCONECTADA">
+              <MappingFragment StoreEntitySet="DESCONECTADA">
+                <ScalarProperty Name="Hora_Cita" ColumnName="Hora_Cita" />
+                <ScalarProperty Name="Fecha_Cita" ColumnName="Fecha_Cita" />
+                <ScalarProperty Name="Tecnico_Cita" ColumnName="Tecnico_Cita" />
+                <ScalarProperty Name="Nombre_Cita" ColumnName="Nombre_Cita" />
+                <ScalarProperty Name="IdNoPaciente" ColumnName="IdNoPaciente" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CODIGOS_FACTURACION">
+            <EntityTypeMapping TypeName="bdAlejandriaCTAModel.CODIGOS_FACTURACION">
+              <MappingFragment StoreEntitySet="CODIGOS_FACTURACION">
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="Denominacion" ColumnName="Denominacion" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FACTURACION_REAL">
+            <EntityTypeMapping TypeName="bdAlejandriaCTAModel.FACTURACION_REAL">
+              <MappingFragment StoreEntitySet="FACTURACION_REAL">
+                <ScalarProperty Name="PagosAlDia" ColumnName="PagosAlDia" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="CodFacturacion" ColumnName="CodFacturacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="AlejandriaCTAModel" ZoomLevel="62">
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.ALTA" Width="1.5" PointX="3" PointY="5.25" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.Apertura" Width="1.5" PointX="6" PointY="13.75" Height="1.9802864583333317" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.ASISTENTES_TERAPIA" Width="1.5" PointX="10.25" PointY="4.625" Height="2.3648893229166656" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.CITAS" Width="1.5" PointX="10.25" PointY="0.75" Height="2.3648893229166656" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.FACTURACION" Width="1.5" PointX="5.75" PointY="5" Height="1.4033821614583335" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.HISTORIA" Width="1.5" PointX="0.75" PointY="13" Height="3.5186979166666656" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.HISTORIA_MEDICA" Width="2.75" PointX="12.625" PointY="9.75" Height="7.7493294270833317" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.HISTORIA_PSICOLOGICA" Width="1.5" PointX="9.5" PointY="13" Height="5.249410807291671" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.HISTORIA_SOCIAL" Width="1.5" PointX="3" PointY="18.375" Height="5.2494108072916674" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.INGRESO" Width="1.5" PointX="3" PointY="16" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.PACIENTES" Width="1.5" PointX="8" PointY="3.375" Height="4.8648079427083317" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.TECNICOS" Width="1.5" PointX="3.75" PointY="1.625" Height="2.1725878906250031" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.TERAPIAS" Width="1.5" PointX="8" PointY="9.875" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.UNIDAD_CONVIVENCIA" Width="1.5" PointX="3" PointY="24.375" Height="2.5571907552083388" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.USUGES" Width="1.5" PointX="6" PointY="16.625" Height="2.1725878906250031" IsExpanded="true" />
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_ALTA_HISTORIA" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.21875" PointY="13" />
+          <ConnectorPoint PointX="1.21875" PointY="6.1439925130208337" />
+          <ConnectorPoint PointX="3" PointY="6.1439925130208337" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_Apertura_HISTORIA" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="14.740143229166666" />
+          <ConnectorPoint PointX="4.924480916666667" PointY="14.740143229166666" />
+          <ConnectorPoint PointX="5.0911475833333331" PointY="14.740143229166666" />
+          <ConnectorPoint PointX="6" PointY="14.740143229166666" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_Apertura_TECNICOS" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.7539046250000006" PointY="3.7975878906250031" />
+          <ConnectorPoint PointX="4.7539046250000006" PointY="14.213819114583334" />
+          <ConnectorPoint PointX="4.924480916666667" PointY="14.213819114583334" />
+          <ConnectorPoint PointX="5.0911475833333331" PointY="14.213819114583334" />
+          <ConnectorPoint PointX="6" PointY="14.213819114583334" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_PACIENTES" ManuallyRouted="false">
+          <ConnectorPoint PointX="9.5" PointY="5.8074446614583328" />
+          <ConnectorPoint PointX="10.25" PointY="5.8074446614583328" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_ASISTENTES_TERAPIA_TERAPIAS" ManuallyRouted="false">
+          <ConnectorPoint PointX="9.5" PointY="10.768992513020834" />
+          <ConnectorPoint PointX="11" PointY="10.768992513020834" />
+          <ConnectorPoint PointX="11" PointY="6.9898893229166656" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_CITAS_PACIENTES" ManuallyRouted="false">
+          <ConnectorPoint PointX="8.75" PointY="3.375" />
+          <ConnectorPoint PointX="8.75" PointY="1.6368309960937488" />
+          <ConnectorPoint PointX="10.25" PointY="1.6368309960937488" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_CITAS_TECNICOS" ManuallyRouted="false">
+          <ConnectorPoint PointX="5.25" PointY="2.7615364583333344" />
+          <ConnectorPoint PointX="8.6666666666666661" PointY="2.7615364583333339" />
+          <ConnectorPoint PointX="8.8333333333333339" PointY="2.7615364583333344" />
+          <ConnectorPoint PointX="10.25" PointY="2.7615364583333344" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_PACIENTES_FACTURACION" ManuallyRouted="false">
+          <ConnectorPoint PointX="7.25" PointY="5.7016910807291667" />
+          <ConnectorPoint PointX="7.6816666666666675" PointY="5.7016910807291659" />
+          <ConnectorPoint PointX="7.8483333333333336" PointY="5.7016910807291667" />
+          <ConnectorPoint PointX="8" PointY="5.7016910807291667" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_HISTORIA_MEDICA_HISTORIA" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.7656275" PointY="13" />
+          <ConnectorPoint PointX="1.7656275" PointY="12.331490013020833" />
+          <ConnectorPoint PointX="4.6705712916666675" PointY="12.331490013020833" />
+          <ConnectorPoint PointX="4.8372379583333336" PointY="12.331490013020833" />
+          <ConnectorPoint PointX="4.924480916666667" PointY="12.331490013020833" />
+          <ConnectorPoint PointX="5.0911475833333331" PointY="12.331490013020833" />
+          <ConnectorPoint PointX="12.625" PointY="12.331490013020833" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_HISTORIA_PSICOLOGICA_HISTORIA" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="13.34375" />
+          <ConnectorPoint PointX="4.6705712916666675" PointY="13.34375" />
+          <ConnectorPoint PointX="4.8372379583333336" PointY="13.34375" />
+          <ConnectorPoint PointX="4.924480916666667" PointY="13.34375" />
+          <ConnectorPoint PointX="5.0911475833333331" PointY="13.34375" />
+          <ConnectorPoint PointX="9.5" PointY="13.34375" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_HISTORIA_SOCIAL_HISTORIA" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.5" PointY="16.518697916666667" />
+          <ConnectorPoint PointX="1.5" PointY="20.999705403645834" />
+          <ConnectorPoint PointX="1.8229191666666667" PointY="20.999705403645834" />
+          <ConnectorPoint PointX="1.9895858333333332" PointY="20.999705403645834" />
+          <ConnectorPoint PointX="3" PointY="20.999705403645834" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_INGRESO_HISTORIA" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="16.259348958333334" />
+          <ConnectorPoint PointX="3" PointY="16.259348958333334" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_UNIDAD_CONVIVENCIA_HISTORIA" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.9062525" PointY="16.518697916666667" />
+          <ConnectorPoint PointX="1.9062525" PointY="25.653595377604169" />
+          <ConnectorPoint PointX="3" PointY="25.653595377604169" />
+        </AssociationConnector>
+        <AssociationConnector Association="bdAlejandriaCTAModel.FK_USUGES_TECNICOS" ManuallyRouted="false">
+          <ConnectorPoint PointX="5.00781425" PointY="3.7975878906250031" />
+          <ConnectorPoint PointX="5.00781425" PointY="17.985341796874998" />
+          <ConnectorPoint PointX="6" PointY="17.985341796874998" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.DESCONECTADA" Width="1.5" PointX="0.75" PointY="0.75" Height="1.9802864583333388" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.CODIGOS_FACTURACION" Width="1.5" PointX="13.5" PointY="4.25" Height="1.5956835937500031" />
+        <EntityTypeShape EntityType="bdAlejandriaCTAModel.FACTURACION_REAL" Width="1.5" PointX="13.5" PointY="1.5" Height="1.7879850260416674" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

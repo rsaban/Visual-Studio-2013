@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4C52E78-C40E-423E-B011-F04009F6BB2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>siAlejandriaCTA.My.MyApplication</StartupObject>
+    <RootNamespace>siAlejandriaCTA</RootNamespace>
+    <AssemblyName>siAlejandriaCTA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <PublisherName>Sabán Development</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>siAlejandriaCTA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>siAlejandriaCTA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlejandriaCTAModel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlejandriaCTAModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAboutMe.Designer.vb">
+      <DependentUpon>formAboutMe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formAboutMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAgenda.Designer.vb">
+      <DependentUpon>formAgenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formAgenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAgregarCitaNoPaciente.Designer.vb">
+      <DependentUpon>formAgregarCitaNoPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formAgregarCitaNoPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAltaTerapeutica.Designer.vb">
+      <DependentUpon>formAltaTerapeutica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formAltaTerapeutica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAsistentesTerapia.Designer.vb">
+      <DependentUpon>formAsistentesTerapia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formAsistentesTerapia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAvisos.Designer.vb">
+      <DependentUpon>formAvisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formAvisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCitasNoPacientes.Designer.vb">
+      <DependentUpon>formCitasNoPacientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formCitasNoPacientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCodFac.Designer.vb">
+      <DependentUpon>formCodFac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formCodFac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCodigosFacturacion.Designer.vb">
+      <DependentUpon>formCodigosFacturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formCodigosFacturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultasVarias.Designer.vb">
+      <DependentUpon>formConsultasVarias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultasVarias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEliminarTerapia.Designer.vb">
+      <DependentUpon>formEliminarTerapia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formEliminarTerapia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGestionTecnicos.Designer.vb">
+      <DependentUpon>formGestionTecnicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formGestionTecnicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formBusqueda.Designer.vb">
+      <DependentUpon>formBusqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formBusqueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formContraseña.Designer.vb">
+      <DependentUpon>formContraseña.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formContraseña.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formControlCitas.Designer.vb">
+      <DependentUpon>formControlCitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formControlCitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSeleccionTecnico.Designer.vb">
+      <DependentUpon>formSeleccionTecnico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formSeleccionTecnico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUC.Designer.vb">
+      <DependentUpon>formUC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formUC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formFichaPaciente.Designer.vb">
+      <DependentUpon>formFichaPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formFichaPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGruposTerapia.Designer.vb">
+      <DependentUpon>formGruposTerapia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formGruposTerapia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHerramientas.Designer.vb">
+      <DependentUpon>formHerramientas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formHerramientas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHistoriaMedica.Designer.vb">
+      <DependentUpon>formHistoriaMedica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formHistoriaMedica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHistoriaPsicologica.Designer.vb">
+      <DependentUpon>formHistoriaPsicologica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formHistoriaPsicologica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHistoriaSocial.Designer.vb">
+      <DependentUpon>formHistoriaSocial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formHistoriaSocial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSeguimientoCitas.Designer.vb">
+      <DependentUpon>formSeguimientoCitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formSeguimientoCitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSeguimientoTerapias.Designer.vb">
+      <DependentUpon>formSeguimientoTerapias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formSeguimientoTerapias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formVisorDeImagenes.Designer.vb">
+      <DependentUpon>formVisorDeImagenes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formVisorDeImagenes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generica.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAboutMe.resx">
+      <DependentUpon>formAboutMe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAgenda.resx">
+      <DependentUpon>formAgenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAgregarCitaNoPaciente.resx">
+      <DependentUpon>formAgregarCitaNoPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAltaTerapeutica.resx">
+      <DependentUpon>formAltaTerapeutica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAsistentesTerapia.resx">
+      <DependentUpon>formAsistentesTerapia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAvisos.resx">
+      <DependentUpon>formAvisos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCitasNoPacientes.resx">
+      <DependentUpon>formCitasNoPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCodFac.resx">
+      <DependentUpon>formCodFac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCodigosFacturacion.resx">
+      <DependentUpon>formCodigosFacturacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultasVarias.resx">
+      <DependentUpon>formConsultasVarias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEliminarTerapia.resx">
+      <DependentUpon>formEliminarTerapia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formGestionTecnicos.resx">
+      <DependentUpon>formGestionTecnicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formBusqueda.resx">
+      <DependentUpon>formBusqueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formContraseña.resx">
+      <DependentUpon>formContraseña.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formControlCitas.resx">
+      <DependentUpon>formControlCitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSeleccionTecnico.resx">
+      <DependentUpon>formSeleccionTecnico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUC.resx">
+      <DependentUpon>formUC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formFichaPaciente.resx">
+      <DependentUpon>formFichaPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formGruposTerapia.resx">
+      <DependentUpon>formGruposTerapia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHerramientas.resx">
+      <DependentUpon>formHerramientas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHistoriaMedica.resx">
+      <DependentUpon>formHistoriaMedica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHistoriaPsicologica.resx">
+      <DependentUpon>formHistoriaPsicologica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHistoriaSocial.resx">
+      <DependentUpon>formHistoriaSocial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSeguimientoCitas.resx">
+      <DependentUpon>formSeguimientoCitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSeguimientoTerapias.resx">
+      <DependentUpon>formSeguimientoTerapias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formVisorDeImagenes.resx">
+      <DependentUpon>formVisorDeImagenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="AlejandriaCTAModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AlejandriaCTAModel.Designer.vb</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\bdAlejandriaCTAEntities.datasource" />
+    <None Include="My Project\DataSources\bdAlejandriaCTAEntities1.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
